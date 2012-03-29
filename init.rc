@@ -67,6 +67,8 @@ loglevel 3
     write /proc/sys/kernel/sched_min_granularity_ns 100000
     write /proc/sys/kernel/sched_compat_yield 1
     write /proc/sys/kernel/sched_child_runs_first 0
+    write /sys/android_touch/event_google 1
+
 
 # Create cgroup mount points for process groups
     mkdir /dev/cpuctl
