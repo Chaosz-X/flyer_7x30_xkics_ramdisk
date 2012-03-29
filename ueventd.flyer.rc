@@ -45,3 +45,6 @@
 #camera
 /dev/gemini0            0660    system     camera
 /dev/msm_camera/*       0660    system     camera
+
+#wifi
+/dev/rfkill             0660    root        wifi
